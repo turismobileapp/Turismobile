@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.turismobile.cargadatos"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+    	
+
+    <application
+        android:icon="@drawable/icono"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.turismobile.cargadatos.Cargando"
+            android:label="@string/title_activity_carga" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.turismobile.cargadatos.Inicio"
+            android:label="@string/title_activity_main" />
+        <activity
+            android:name="com.turismobile.cargadatos.Hoteles"
+            android:label="@string/title_activity_hotel" >
+        </activity>
+        <activity
+            android:name="com.turismobile.cargadatos.RestaurantesActivity"
+            android:label="@string/title_activity_restaurantes" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.turismobile.cargadatos.Restarantes"
+            android:label="@string/title_activity_restarantes" >
+        </activity>
+    </application>
+
+</manifest>

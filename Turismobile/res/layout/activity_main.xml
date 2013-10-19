@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#ffffff" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#FD0EE4"
+        android:text="Pauta en la página principal"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="fill_parent"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:background="#FFD700" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView01"
+        android:background="#063FF9"
+        android:text="Lugares más visitados"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+ <Gallery
+        android:id="@+id/gallery1"
+        android:layout_width="fill_parent"
+        android:layout_height="450dp"
+        android:layout_alignParentLeft="true" />
+
+ <ImageView
+     android:id="@+id/imageView1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     android:layout_alignParentLeft="true"
+     android:layout_marginBottom="54dp"
+     android:layout_marginLeft="144dp"
+     android:src="@drawable/logo_turismobile" />
+   
+</RelativeLayout>

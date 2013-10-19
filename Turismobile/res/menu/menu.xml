@@ -1,0 +1,17 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+  <item android:id="@+id/Yo" android:title="Yo quiero descubrir" >
+      <menu>
+          <item android:id="@+id/Restaurantes" android:title="@string/Restaurantes"/>
+          <item android:id="@+id/Hoteles" android:title="@string/Hoteles"/>
+          <item android:id="@+id/Tours" android:title="@string/Tours"/>
+          <item android:id="@+id/Trasportes" android:title="@string/Transportes"/>
+          <item android:id="@+id/Destinos" android:title="@string/Destinos"/>
+      </menu>
+  </item>
+   <item android:id="@+id/Que" android:title = "Que hay para hacer" />
+   <item android:id="@+id/Rutas" android:title="@string/Rutas">
+      
+       
+   </item>
+</menu>

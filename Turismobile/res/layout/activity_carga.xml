@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#C0C0C0"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/loadText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/progressBar1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="54dp"
+        android:padding="10dp" />
+
+    <ImageView
+        android:contentDescription="Pasto"
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="430dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/pasto" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:layout_above="@+id/loadText"
+        android:layout_alignParentLeft="true"
+        android:background="#FF00FF"
+        android:text="http://turismobile.host56.com/"
+        android:textColor="#ffffff" />
+   
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="fill_parent"
+        android:layout_height="15dp"
+        android:layout_above="@+id/TextView02"
+        android:layout_alignParentLeft="true"
+        android:background="#FFD700" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:layout_above="@+id/TextView01"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="90dp"
+        android:background="#6495ED"
+        android:text="Yo quiero descubrir"
+        android:textAppearance="?android:attr/textAppearanceSmallInverse"
+        android:textColor="#ffffff" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20sp" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_above="@+id/progressBar1"
+        android:layout_centerHorizontal="true"
+        android:shadowDx="4"
+        android:shadowDy="3"
+        android:shadowRadius="2.5"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:contentDescription="Logo"
+        android:id="@+id/imageView2"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:src="@drawable/logo_turismobile" />
+
+</RelativeLayout>
