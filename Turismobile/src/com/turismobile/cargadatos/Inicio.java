@@ -27,6 +27,8 @@ public class Inicio extends Activity {
     	    R.drawable.lamerced 		
     		
     };
+    
+    //comentario
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
