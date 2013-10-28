@@ -7,7 +7,7 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="saludo">Bienvenido</string>
     <string name="Yo">Yo quiero descubrir</string>
-    <string name="Que">Que hay para hacer</string>
+    <string name="Que">Descubre hoyr</string>
     <string name="Rutas">Rutas</string>
     <string name="Hoteles">Hoteles</string>
     <string name="Restaurantes">Restaurantes</string>
@@ -24,4 +24,11 @@
     <string name="textView02">http://turismobile.host56.com/</string>
     <string name="lugares">LUGARES MAS VISITADOS</string>
     <string name="pasto">Pasto</string>
+    <string name="title_activity_restaurante_platos">RestaurantePlatos</string>
+    <string name="Platos">Platos</string>
+    <string name="Ubicacion">Ubicacion</string>
+    <string name="title_activity_notificaciones">Notificaciones</string>
+    <string name="title_activity_mmapa">Mmapa</string>
+    <string name="title_activity_mapa">Mapa</string>
+
 </resources>
