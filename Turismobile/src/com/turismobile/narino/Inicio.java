@@ -1,8 +1,11 @@
 package com.turismobile.narino;
 
-import android.app.Activity;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.DialogInterface.OnClickListener;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
@@ -11,12 +14,16 @@ import android.view.ViewGroup;
 
 import android.view.MenuItem;
 import android.widget.BaseAdapter;
+import android.widget.Button;
 import android.widget.Gallery;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-public class Inicio extends Activity {
-    Integer [] imagenId = {
+public class Inicio extends FragmentActivity implements OnClickListener, android.view.View.OnClickListener  {
+	private Button btnYo;
+	private Button btnDes;
+	
+	Integer [] imagenId = {
     	    R.drawable.picanteria,
     	    R.drawable.hbolivar,
     	    R.drawable.capitan,
@@ -33,8 +40,11 @@ public class Inicio extends Activity {
 		setContentView(R.layout.activity_main);
 		RelativeLayout r = (RelativeLayout)findViewById(R.id.relative);
 		r.setBackgroundColor(Color.BLACK);
-	    
+		btnYo = (Button) findViewById(R.id.btndes);
+		btnDes = (Button) findViewById(R.id.b_5);
 		
+		btnYo.setOnClickListener(this);
+		btnDes.setOnClickListener(this);
 		
 		Gallery galeria = (Gallery)findViewById(R.id.gallery1);
 		galeria.setAdapter(new ImageAdapter(this) );
@@ -75,7 +85,7 @@ public class Inicio extends Activity {
 			// TODO Auto-generated method stub
 			ImageView imagen = new ImageView(contexto);
 			imagen.setImageResource(imagenId[position]);
-			imagen.setLayoutParams(new Gallery.LayoutParams(300, 300));
+			imagen.setLayoutParams(new Gallery.LayoutParams(400, 300));
 			
 			return imagen;
 		}
@@ -97,40 +107,52 @@ public class Inicio extends Activity {
 		// TODO Auto-generated method stub
 		switch(item.getItemId()){
 		
+		case R.id.Yo:
+			FragmentManager fragmentManager = getSupportFragmentManager();
+		    DialogoPersonalizado dialogo = new DialogoPersonalizado();
+		    dialogo.show(fragmentManager, "tagPersonalizado");
+			return true;
 			
+		case R.id.Que:
+			//Intent map = new Intent(this,TurismobileMapa.class);
+			//startActivity(map);
+			return true;
+					
 		case R.id.Restaurantes:
-			Intent act = new Intent(this,Restaurantes.class);
+			Intent act = new Intent(this,MainActivity.class);
 			startActivity(act);
 			return true;
 		
 		case R.id.Hoteles:
-			Intent act1 = new Intent(this,Hoteles.class);
+			Intent act1 = new Intent(this,MainHotel.class);
 			startActivity(act1);
 			return true;
-		
-		case R.id.Tours:
-			Intent act2 = new Intent(this,Hoteles.class);
-			startActivity(act2);
-			return true;
 				
-		case R.id.Trasportes:
-			Intent act3 = new Intent(this,Hoteles.class);
-			startActivity(act3);
-			return true;
-		
-		case R.id.Destinos:
-			Intent act4 = new Intent(this,Hoteles.class);
-			startActivity(act4);
-			return true;
-		
-		case R.id.Rutas:
-			Intent act5 = new Intent(this,Hoteles.class);
-			startActivity(act5);
-			return true;
-			
 		default:	
 		return super.onOptionsItemSelected(item);
 		}
+	}
+
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		switch(v.getId()){
+		    case R.id.btndes:
+			Intent act = new Intent(Inicio.this, MainOpciones.class); 
+			startActivity(act);
+		    return;
+		    case R.id.b_5:
+			Intent act0 = new Intent(this,OpcionesUsuarios.class);
+			startActivity(act0);
+			return;
+		}
+	}
+
+	@Override
+	public void onClick(DialogInterface dialog, int which) {
+		// TODO Auto-generated method stub
+		
 	}
 }
 

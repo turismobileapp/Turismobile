@@ -9,7 +9,7 @@
          <item android:id="@+id/Destinos" android:title="@string/Destinos"/>
      </menu>
   </item>
-   <item android:id="@+id/Que" android:title = "Descubre Hoy" 
+   <item android:id="@+id/Que" android:title = "Donde estoy" 
        />
    <item android:id="@+id/Rutas" android:title="@string/Rutas"
  

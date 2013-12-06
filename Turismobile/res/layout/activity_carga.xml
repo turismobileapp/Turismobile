@@ -1,96 +1,161 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#C0C0C0"
     android:layout_width="match_parent"
-    android:layout_gravity="center"
-    android:layout_height="match_parent" >
-    
-    <TextView
-        android:id="@+id/loadText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/progressBar1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="54dp"
-        android:padding="10dp" />
+    android:layout_height="match_parent"
+    android:layout_gravity="center" 
+    android:background="#000000">
 
     <ImageView
-        android:contentDescription="Pasto"
         android:id="@+id/imageView1"
         android:layout_width="wrap_content"
-        android:layout_height="430dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:src="@drawable/pasto" />
-
-    <TextView
-        android:id="@+id/TextView02"
-        android:layout_width="fill_parent"
-        android:layout_height="25dp"
-        android:layout_above="@+id/loadText"
-        android:layout_alignParentLeft="true"
-        android:background="#FF00FF"
-        android:text="http://turismobile.host56.com/"
-        android:textColor="#ffffff" />
-   
-    <TextView
-        android:id="@+id/TextView01"
-        android:layout_width="fill_parent"
-        android:layout_height="15dp"
-        android:layout_above="@+id/TextView02"
-        android:layout_alignParentLeft="true"
-        android:background="#FFD700" />
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="fill_parent"
-        android:layout_height="25dp"
-        android:layout_above="@+id/TextView01"
-        android:layout_alignParentLeft="true"
-        android:layout_marginBottom="90dp"
-        android:background="#6495ED"
-        android:text="Yo quiero descubrir"
-        android:textAppearance="?android:attr/textAppearanceSmallInverse"
-        android:textColor="#ffffff" />
-
-    <ProgressBar
-        android:id="@+id/progressBar1"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imageView1"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="20sp" />
-
-    <TextView
-        android:id="@+id/TextView03"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_above="@+id/progressBar1"
-        android:layout_centerHorizontal="true"
-        android:shadowDx="4"
-        android:shadowDy="3"
-        android:shadowRadius="2.5"
-        android:textColor="#000000"
-        android:textSize="20sp" />
+        android:src="@drawable/inicio_01" />
 
     <ImageView
-        android:contentDescription="Logo"
         android:id="@+id/imageView2"
-        android:layout_width="250dp"
-        android:layout_height="60dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="38dp"
-        android:src="@drawable/logo_turismobile" />
-
-    <TextView
-        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/TextView03"
-        android:layout_alignBottom="@+id/TextView03"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/inicio_02" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:src="@drawable/inicio_03" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_toRightOf="@+id/imageView3"
+        android:src="@drawable/inicio_04" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView3"
+        android:src="@drawable/inicio_05" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_below="@+id/imageView4"
+        android:src="@drawable/inicio_06" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView5"
+        android:layout_toLeftOf="@+id/imageView6"
+        android:src="@drawable/inicio_07" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView6"
+        android:layout_alignTop="@+id/imageView7"
+        android:src="@drawable/inicio_08" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView7"
+        android:src="@drawable/inicio_09" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView9"
+        android:layout_toRightOf="@+id/imageView9"
+        android:src="@drawable/inicio_10" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView10"
+        android:src="@drawable/inicio_11" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView9"
+        android:layout_toRightOf="@+id/imageView9"
+        android:src="@drawable/inicio_12" />
+
+    <Button
+        android:id="@+id/btni01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView9"
+        android:background="@drawable/inicio_13" />
+
+    <Button
+        android:id="@+id/btni2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btni01"
         android:layout_centerHorizontal="true"
-        android:text="Bienvenido" />
+        android:background="@drawable/inicio_14" />
+
+    <Button
+        android:id="@+id/b_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btni3"
+        android:layout_toRightOf="@+id/btni3"
+        android:background="@drawable/inicio_15"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btni3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/btni2"
+        android:background="@drawable/inicio_15" />
+
+    <Button
+        android:id="@+id/btni4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btni01"
+        android:layout_toLeftOf="@+id/btni2"
+        android:background="@drawable/inicio_16" />
+
+    <Button
+        android:id="@+id/btni05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btni4"
+        android:layout_alignLeft="@+id/btni2"
+        android:background="@drawable/inicio_17" />
+
+    <Button
+        android:id="@+id/btni06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btni2"
+        android:layout_toRightOf="@+id/btni2"
+        android:background="@drawable/inicio_18" />
 
 </RelativeLayout>

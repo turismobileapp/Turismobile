@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">CargaDatos</string>
-    <string name="menu_settings">CargaDatos</string>
-    <string name="title_activity_carga">CargaActivity</string>
+    <string-array name="hab_morasurco">
+        <item>Sencilla</item>
+        <item>Twins</item>
+        <item>King Size</item>
+        <item>Doble</item>
+        <item>Triple</item>
+        <item>SuiteFamiliar</item>
+        <item>Suite Junior Presidencial</item>
+    </string-array>
+
+    <string name="app_name">Turismobile</string>
+    <string name="menu_settings">Turismobile</string>
+    <string name="title_Turismobile">Turismobile</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="saludo">Bienvenido</string>
     <string name="Yo">Yo quiero descubrir</string>
-    <string name="Que">Descubre hoyr</string>
+    <string name="Que">Donde estoy</string>
+    <string name="Servicios">Servicios</string>
     <string name="Rutas">Rutas</string>
     <string name="Hoteles">Hoteles</string>
     <string name="Restaurantes">Restaurantes</string>
@@ -30,5 +41,29 @@
     <string name="title_activity_notificaciones">Notificaciones</string>
     <string name="title_activity_mmapa">Mmapa</string>
     <string name="title_activity_mapa">Mapa</string>
+    <string name="title_activity_lista_restaurantes">ListaRestaurantes</string>
+    <string name="title_activity_main_activity_hotel">MainActivityHotel</string>
+    <string name="title_activity_lista_item">ListaItem</string>
+    <string name="tvTitle"></string>
+    <string name="title_activity_hotel_cuellar">HotelCuellar</string>
+    <string name="UbicacionHC">Ubicacion</string>
+    <string name="ServiciosHC">Servicios</string>
+    <string name="title_activity_hotel_loft">HotelLoft</string>
+    <string name="title_activity_hotel_morasurco">HotelMorasurco</string>
+    <string name="title_activity_hotel_galerias">HotelGalerias</string>
+    <string name="title_activity_hotel_sindamanoy">HotelSindamanoy</string>
+    <string name="title_activity_hotel_mansion">HotelMansion</string>
+    <string name="title_activity_mapa">MyLocationDemoActivity</string>
+    <string name="title_activity_ubicacion">Ubicacion</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_hotel_bolivar_descrip">HotelBolivarDescrip</string>
+    <string name="title_activity_opciones_usuarios">OpcionesUsuarios</string>
+    <string name="title_activity_servicios_bolivar">ServiciosBolivar</string>
+    <string name="title_activity_servicios_morasurco">ServiciosMorasurco</string>
+    <string name="title_activity_hotel_morasurco_home">HotelMorasurcoHome</string>
+    <string name="title_activity_morasurco__reservas">Morasurco_Reservas</string>
+    <string name="title_activity_morasurco_ubicacion">Morasurco_ubicacion</string>
+    <string name="title_activity_restaurante_picanteria">Restaurante_picanteria</string>
 
 </resources>

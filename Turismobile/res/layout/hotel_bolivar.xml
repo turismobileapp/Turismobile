@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+   
+    <Button
+        android:id="@+id/b01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/bolivar_02" 
+        />
+
+    <Button
+        android:id="@+id/btni2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/b01"
+        android:layout_alignBottom="@+id/b01"
+        android:layout_toRightOf="@+id/b01"
+        android:background="@drawable/bolivar_03" />
+
+    <Button
+        android:id="@+id/b_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btni2"
+        android:layout_toRightOf="@+id/btni2"
+        android:background="@drawable/bolivar_04" 
+         android:onClick="hotel"
+       
+        />
+
+    <Button
+        android:id="@+id/btni4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/b_4"
+        android:layout_toRightOf="@+id/b_4"
+        android:background="@drawable/bolivar_05" 
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/bolivar_06" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b01"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bolivar_01" />
+
+</RelativeLayout>

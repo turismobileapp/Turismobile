@@ -7,27 +7,32 @@ import com.parse.ParseObject;
 import com.parse.PushService;
 import android.app.Activity;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.DialogInterface.OnClickListener;
 import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-public class Cargando extends Activity {
+public class Cargando extends Activity     {
 
-	TextView loadText;
-	ProgressBar progressBar;
-
+	//TextView loadText;
+	//ProgressBar progressBar;
+	private Button btnYo;
+	
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_carga);
-		loadText = (TextView) findViewById(R.id.loadText);
-		progressBar = (ProgressBar) findViewById(R.id.progressBar1);
-		progressBar.setMax(100);
-		progressBar.setBackgroundColor(Color.GRAY);
-		progressBar.setProgress(0);
+		//loadText = (TextView) findViewById(R.id.loadText);
+	  	//progressBar = (ProgressBar) findViewById  (R.id.progressBar1);
+		//progressBar.setMax(100);
+		//progressBar.setBackgroundColor(Color.GRAY);
+		//progressBar.setProgress(0);
 		
 		AsyncTaskCargaDatos ATCargaDatos = new AsyncTaskCargaDatos(this);
 		ATCargaDatos.execute();
@@ -69,11 +74,12 @@ public class Cargando extends Activity {
 			return null;
 		}
 
+
 		@Override
 		protected void onProgressUpdate(Integer... value) {
-			loadText.setText(value[0] + " %");
+			//loadText.setText(value[0] + " %");
 
-			progressBar.setProgress(value[0]);
+			//progressBar.setProgress(value[0]);
 
 		}
 
@@ -83,6 +89,10 @@ public class Cargando extends Activity {
 			finish();
 		}
 
+
+
+		
+
 	}// fin asynctask
 
-}
+	}

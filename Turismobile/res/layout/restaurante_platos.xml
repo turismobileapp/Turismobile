@@ -46,35 +46,6 @@
         android:text="Lapingacho con chorizo"
         android:textSize="12sp" />
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/TextView02"
-        android:layout_alignLeft="@+id/TextView02"
-        android:src="@drawable/pican3" />
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="17dp"
-        android:background="#FD0309"
-        android:text="Delicias de la región"
-        android:textColor="#ffffff"
-        android:textSize="16sp" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/textView2"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_marginBottom="16dp"
-        android:src="@drawable/pica" />
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="fill_parent"
@@ -100,5 +71,32 @@
         android:layout_above="@+id/imageView2"
         android:layout_alignLeft="@+id/imageView2"
         android:background="#FD0309" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:src="@drawable/pica" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextView03"
+        android:layout_alignLeft="@+id/TextView03"
+        android:src="@drawable/pican3" />
+
+    <TextView
+        android:id="@+id/loadText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FD0309"
+        android:text="Delicias de la región"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
 
 </RelativeLayout>

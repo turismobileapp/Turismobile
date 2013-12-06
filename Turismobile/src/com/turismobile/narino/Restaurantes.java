@@ -23,16 +23,18 @@ public class Restaurantes extends Activity {
 		// TODO Auto-generated method stub
 		switch(item.getItemId()){
 		
-	   case R.id.Platos:
-			Intent act = new Intent(this,RestaurantePlatos.class);
-			startActivity(act);
-			return true;
-		
 		case R.id.Ubicacion:
-			Intent act1 = new Intent(this,Hoteles.class);
+				Intent act = new Intent(this,Mapa_picanteria.class);
+				startActivity(act);
+				return true;
+		
+		
+	   case R.id.Platos:
+			Intent act1 = new Intent(this,RestaurantePlatos.class);
 			startActivity(act1);
 			return true;
 		
+	
 		default:	
 		return super.onOptionsItemSelected(item);
 		}

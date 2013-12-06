@@ -8,7 +8,40 @@
 package com.turismobile.narino;
 
 public final class R {
+    public static final class array {
+        public static final int hab_morasurco=0x7f090000;
+    }
     public static final class attr {
+        /** 
+    The size of the ad. It must be one of BANNER, FULL_BANNER, LEADERBOARD,
+    MEDIUM_RECTANGLE, SMART_BANNER, WIDE_SKYSCRAPER, or
+    &lt;width&gt;x&lt;height&gt;.
+    
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int adSize=0x7f010000;
+        /**  The ad unit ID. 
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int adUnitId=0x7f010001;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonBarButtonStyle=0x7f010011;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonBarStyle=0x7f010010;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -16,7 +49,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cameraBearing=0x7f010001;
+        public static final int cameraBearing=0x7f010003;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -24,7 +57,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cameraTargetLat=0x7f010002;
+        public static final int cameraTargetLat=0x7f010004;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -32,7 +65,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cameraTargetLng=0x7f010003;
+        public static final int cameraTargetLng=0x7f010005;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -40,7 +73,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cameraTilt=0x7f010004;
+        public static final int cameraTilt=0x7f010006;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -48,7 +81,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int cameraZoom=0x7f010005;
+        public static final int cameraZoom=0x7f010007;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -62,7 +95,7 @@ containing a value of this type.
 <tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
 </table>
          */
-        public static final int mapType=0x7f010000;
+        public static final int mapType=0x7f010002;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -70,7 +103,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int uiCompass=0x7f010006;
+        public static final int uiCompass=0x7f010008;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -78,7 +111,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int uiRotateGestures=0x7f010007;
+        public static final int uiRotateGestures=0x7f010009;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -86,7 +119,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int uiScrollGestures=0x7f010008;
+        public static final int uiScrollGestures=0x7f01000a;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -94,7 +127,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int uiTiltGestures=0x7f010009;
+        public static final int uiTiltGestures=0x7f01000b;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -102,7 +135,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int uiZoomControls=0x7f01000a;
+        public static final int uiZoomControls=0x7f01000c;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -110,7 +143,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int uiZoomGestures=0x7f01000b;
+        public static final int uiZoomGestures=0x7f01000d;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -118,7 +151,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int useViewLifecycle=0x7f01000c;
+        public static final int useViewLifecycle=0x7f01000e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -126,9 +159,10 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int zOrderOnTop=0x7f01000d;
+        public static final int zOrderOnTop=0x7f01000f;
     }
     public static final class color {
+        public static final int black_overlay=0x7f04000a;
         public static final int common_action_bar_splitter=0x7f040009;
         /**  Sign-in Button Colors 
          */
@@ -141,8 +175,8 @@ containing a value of this type.
         public static final int common_signin_btn_light_text_disabled=0x7f040006;
         public static final int common_signin_btn_light_text_focused=0x7f040007;
         public static final int common_signin_btn_light_text_pressed=0x7f040005;
-        public static final int common_signin_btn_text_dark=0x7f04000a;
-        public static final int common_signin_btn_text_light=0x7f04000b;
+        public static final int common_signin_btn_text_dark=0x7f04000b;
+        public static final int common_signin_btn_text_light=0x7f04000c;
     }
     public static final class dimen {
         /** 
@@ -150,148 +184,320 @@ containing a value of this type.
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f070003;
-        public static final int activity_vertical_margin=0x7f070004;
-        public static final int padding_large=0x7f070002;
-        public static final int padding_medium=0x7f070001;
-        public static final int padding_small=0x7f070000;
+        public static final int activity_horizontal_margin=0x7f080003;
+        public static final int activity_vertical_margin=0x7f080004;
+        public static final int padding_large=0x7f080002;
+        public static final int padding_medium=0x7f080001;
+        public static final int padding_small=0x7f080000;
     }
     public static final class drawable {
-        public static final int bolivarplaza=0x7f020000;
-        public static final int capitan=0x7f020001;
-        public static final int common_signin_btn_icon_dark=0x7f020002;
-        public static final int common_signin_btn_icon_disabled_dark=0x7f020003;
-        public static final int common_signin_btn_icon_disabled_focus_dark=0x7f020004;
-        public static final int common_signin_btn_icon_disabled_focus_light=0x7f020005;
-        public static final int common_signin_btn_icon_disabled_light=0x7f020006;
-        public static final int common_signin_btn_icon_focus_dark=0x7f020007;
-        public static final int common_signin_btn_icon_focus_light=0x7f020008;
-        public static final int common_signin_btn_icon_light=0x7f020009;
-        public static final int common_signin_btn_icon_normal_dark=0x7f02000a;
-        public static final int common_signin_btn_icon_normal_light=0x7f02000b;
-        public static final int common_signin_btn_icon_pressed_dark=0x7f02000c;
-        public static final int common_signin_btn_icon_pressed_light=0x7f02000d;
-        public static final int common_signin_btn_text_dark=0x7f02000e;
-        public static final int common_signin_btn_text_disabled_dark=0x7f02000f;
-        public static final int common_signin_btn_text_disabled_focus_dark=0x7f020010;
-        public static final int common_signin_btn_text_disabled_focus_light=0x7f020011;
-        public static final int common_signin_btn_text_disabled_light=0x7f020012;
-        public static final int common_signin_btn_text_focus_dark=0x7f020013;
-        public static final int common_signin_btn_text_focus_light=0x7f020014;
-        public static final int common_signin_btn_text_light=0x7f020015;
-        public static final int common_signin_btn_text_normal_dark=0x7f020016;
-        public static final int common_signin_btn_text_normal_light=0x7f020017;
-        public static final int common_signin_btn_text_pressed_dark=0x7f020018;
-        public static final int common_signin_btn_text_pressed_light=0x7f020019;
-        public static final int corral=0x7f02001a;
-        public static final int cubano=0x7f02001b;
-        public static final int fondoipiales=0x7f02001c;
-        public static final int hbolivar=0x7f02001d;
-        public static final int hotel=0x7f02001e;
-        public static final int ic_launcher=0x7f02001f;
-        public static final int ic_plusone_medium_off_client=0x7f020020;
-        public static final int ic_plusone_small_off_client=0x7f020021;
-        public static final int ic_plusone_standard_off_client=0x7f020022;
-        public static final int ic_plusone_tall_off_client=0x7f020023;
-        public static final int icono=0x7f020024;
-        public static final int inicio=0x7f020025;
-        public static final int lamerced=0x7f020026;
-        public static final int logo_turismobile=0x7f020027;
-        public static final int pasto=0x7f020028;
-        public static final int paute=0x7f020029;
-        public static final int pica=0x7f02002a;
-        public static final int pican3=0x7f02002b;
-        public static final int picanteria=0x7f02002c;
-        public static final int picanteria_ipiales=0x7f02002d;
-        public static final int plaza2=0x7f02002e;
-        public static final int res_icon=0x7f02002f;
-        public static final int top=0x7f020030;
-        public static final int transporte=0x7f020031;
-        public static final int turismo=0x7f020032;
-        public static final int turismobile=0x7f020033;
+        public static final int a=0x7f020000;
+        public static final int bolivar_01=0x7f020001;
+        public static final int bolivar_02=0x7f020002;
+        public static final int bolivar_03=0x7f020003;
+        public static final int bolivar_04=0x7f020004;
+        public static final int bolivar_05=0x7f020005;
+        public static final int bolivar_06=0x7f020006;
+        public static final int bolivarplaza=0x7f020007;
+        public static final int boton=0x7f020008;
+        public static final int btndescubrir=0x7f020009;
+        public static final int capitan=0x7f02000a;
+        public static final int common_signin_btn_icon_dark=0x7f02000b;
+        public static final int common_signin_btn_icon_disabled_dark=0x7f02000c;
+        public static final int common_signin_btn_icon_disabled_focus_dark=0x7f02000d;
+        public static final int common_signin_btn_icon_disabled_focus_light=0x7f02000e;
+        public static final int common_signin_btn_icon_disabled_light=0x7f02000f;
+        public static final int common_signin_btn_icon_focus_dark=0x7f020010;
+        public static final int common_signin_btn_icon_focus_light=0x7f020011;
+        public static final int common_signin_btn_icon_light=0x7f020012;
+        public static final int common_signin_btn_icon_normal_dark=0x7f020013;
+        public static final int common_signin_btn_icon_normal_light=0x7f020014;
+        public static final int common_signin_btn_icon_pressed_dark=0x7f020015;
+        public static final int common_signin_btn_icon_pressed_light=0x7f020016;
+        public static final int common_signin_btn_text_dark=0x7f020017;
+        public static final int common_signin_btn_text_disabled_dark=0x7f020018;
+        public static final int common_signin_btn_text_disabled_focus_dark=0x7f020019;
+        public static final int common_signin_btn_text_disabled_focus_light=0x7f02001a;
+        public static final int common_signin_btn_text_disabled_light=0x7f02001b;
+        public static final int common_signin_btn_text_focus_dark=0x7f02001c;
+        public static final int common_signin_btn_text_focus_light=0x7f02001d;
+        public static final int common_signin_btn_text_light=0x7f02001e;
+        public static final int common_signin_btn_text_normal_dark=0x7f02001f;
+        public static final int common_signin_btn_text_normal_light=0x7f020020;
+        public static final int common_signin_btn_text_pressed_dark=0x7f020021;
+        public static final int common_signin_btn_text_pressed_light=0x7f020022;
+        public static final int corral=0x7f020023;
+        public static final int cubano=0x7f020024;
+        public static final int fondo=0x7f020025;
+        public static final int fondoipiales=0x7f020026;
+        public static final int foto=0x7f020027;
+        public static final int h0=0x7f020028;
+        public static final int h_02=0x7f020029;
+        public static final int h_06=0x7f02002a;
+        public static final int hbolivar=0x7f02002b;
+        public static final int hhotel=0x7f02002c;
+        public static final int hmorasurco=0x7f02002d;
+        public static final int hmorasurco_e=0x7f02002e;
+        public static final int hotel=0x7f02002f;
+        public static final int ic_launcher=0x7f020030;
+        public static final int ic_plusone_medium_off_client=0x7f020031;
+        public static final int ic_plusone_small_off_client=0x7f020032;
+        public static final int ic_plusone_standard_off_client=0x7f020033;
+        public static final int ic_plusone_tall_off_client=0x7f020034;
+        public static final int icono=0x7f020035;
+        public static final int imageneshotel_01=0x7f020036;
+        public static final int imageneshotel_02=0x7f020037;
+        public static final int imageneshotel_03=0x7f020038;
+        public static final int imageneshotel_04=0x7f020039;
+        public static final int inicio=0x7f02003a;
+        public static final int inicio_01=0x7f02003b;
+        public static final int inicio_02=0x7f02003c;
+        public static final int inicio_03=0x7f02003d;
+        public static final int inicio_04=0x7f02003e;
+        public static final int inicio_05=0x7f02003f;
+        public static final int inicio_06=0x7f020040;
+        public static final int inicio_07=0x7f020041;
+        public static final int inicio_08=0x7f020042;
+        public static final int inicio_09=0x7f020043;
+        public static final int inicio_10=0x7f020044;
+        public static final int inicio_11=0x7f020045;
+        public static final int inicio_12=0x7f020046;
+        public static final int inicio_13=0x7f020047;
+        public static final int inicio_14=0x7f020048;
+        public static final int inicio_15=0x7f020049;
+        public static final int inicio_16=0x7f02004a;
+        public static final int inicio_17=0x7f02004b;
+        public static final int inicio_18=0x7f02004c;
+        public static final int inicio_moras_01=0x7f02004d;
+        public static final int inicio_moras_02=0x7f02004e;
+        public static final int inicio_moras_03=0x7f02004f;
+        public static final int inicio_moras_04=0x7f020050;
+        public static final int inicio_moras_05=0x7f020051;
+        public static final int inicio_moras_06=0x7f020052;
+        public static final int inicio_moras_07=0x7f020053;
+        public static final int inicio_moras_08=0x7f020054;
+        public static final int inicio_moras_09=0x7f020055;
+        public static final int inicio_moras_10=0x7f020056;
+        public static final int inicio_moras_11=0x7f020057;
+        public static final int lamerced=0x7f020058;
+        public static final int logo_turismobile=0x7f020059;
+        public static final int mapa_02=0x7f02005a;
+        public static final int mapa_04=0x7f02005b;
+        public static final int pasto=0x7f02005c;
+        public static final int paute=0x7f02005d;
+        public static final int pica=0x7f02005e;
+        public static final int pican3=0x7f02005f;
+        public static final int pican_ipi_02=0x7f020060;
+        public static final int pican_ipi_03=0x7f020061;
+        public static final int pican_ipi_04=0x7f020062;
+        public static final int pican_ipi_05=0x7f020063;
+        public static final int pican_ipi_06=0x7f020064;
+        public static final int pican_ipi_07=0x7f020065;
+        public static final int picanteria=0x7f020066;
+        public static final int picanteria_ipiales=0x7f020067;
+        public static final int plaza2=0x7f020068;
+        public static final int presentacion=0x7f020069;
+        public static final int promo_01=0x7f02006a;
+        public static final int promo_02=0x7f02006b;
+        public static final int promo_03=0x7f02006c;
+        public static final int promo_04=0x7f02006d;
+        public static final int promo_05=0x7f02006e;
+        public static final int res_icon=0x7f02006f;
+        public static final int reserva_01=0x7f020070;
+        public static final int reserva_04=0x7f020071;
+        public static final int reserva_07=0x7f020072;
+        public static final int restaurantes=0x7f020073;
+        public static final int servicios=0x7f020074;
+        public static final int servicios_mora=0x7f020075;
+        public static final int slide=0x7f020076;
+        public static final int spacer=0x7f020077;
+        public static final int top=0x7f020078;
+        public static final int transporte=0x7f020079;
+        public static final int turismo=0x7f02007a;
+        public static final int turismobile=0x7f02007b;
+        public static final int volver=0x7f02007c;
     }
     public static final class id {
-        public static final int Destinos=0x7f05001a;
-        public static final int Hoteles=0x7f050017;
-        public static final int Platos=0x7f05001d;
-        public static final int Que=0x7f05001b;
-        public static final int Restaurantes=0x7f050016;
-        public static final int Rutas=0x7f05001c;
-        public static final int TextView01=0x7f050009;
-        public static final int TextView02=0x7f050008;
-        public static final int TextView03=0x7f05000b;
-        public static final int Tours=0x7f050018;
-        public static final int Trasportes=0x7f050019;
-        public static final int Ubicacion=0x7f05001e;
-        public static final int Yo=0x7f050015;
-        public static final int action_settings=0x7f050014;
-        public static final int gallery1=0x7f05000f;
+        public static final int Destinos=0x7f05005b;
+        public static final int Hoteles=0x7f050058;
+        public static final int Platos=0x7f05005f;
+        public static final int Que=0x7f05005c;
+        public static final int RelativeLayout1=0x7f050028;
+        public static final int Restaurantes=0x7f050057;
+        public static final int Rutas=0x7f05005d;
+        public static final int TextView01=0x7f050052;
+        public static final int TextView02=0x7f050054;
+        public static final int TextView03=0x7f050053;
+        public static final int Tours=0x7f050059;
+        public static final int Trasportes=0x7f05005a;
+        public static final int Ubicacion=0x7f050060;
+        public static final int Yo=0x7f050056;
+        public static final int action_settings=0x7f050055;
+        public static final int b01=0x7f05001c;
+        public static final int b_1=0x7f050023;
+        public static final int b_2=0x7f050024;
+        public static final int b_3=0x7f050013;
+        public static final int b_4=0x7f050025;
+        public static final int b_5=0x7f050026;
+        public static final int b_6=0x7f050027;
+        public static final int bmora1=0x7f050018;
+        public static final int bmora2=0x7f050019;
+        public static final int bmora3=0x7f05001a;
+        public static final int bmora4=0x7f05001b;
+        public static final int btnReservarm=0x7f050030;
+        public static final int btn_p1=0x7f050040;
+        public static final int btn_p2=0x7f05003e;
+        public static final int btn_p3=0x7f05003f;
+        public static final int btn_picanteria=0x7f05004e;
+        public static final int btndes=0x7f050022;
+        public static final int btni01=0x7f050011;
+        public static final int btni05=0x7f050016;
+        public static final int btni06=0x7f050017;
+        public static final int btni2=0x7f050012;
+        public static final int btni3=0x7f050014;
+        public static final int btni4=0x7f050015;
+        public static final int btnp1=0x7f050038;
+        public static final int btnp2=0x7f050037;
+        public static final int btnp3=0x7f050039;
+        public static final int btnp4=0x7f05003a;
+        public static final int btnp5=0x7f05003d;
+        public static final int btnp6=0x7f05003c;
+        public static final int btnp7=0x7f05003b;
+        public static final int edit1_pi=0x7f05004d;
+        public static final int edit2_pi=0x7f05004c;
+        public static final int edit3_pi=0x7f05004f;
+        public static final int edit4_pi=0x7f050050;
+        public static final int gallery1=0x7f050021;
         public static final int hybrid=0x7f050004;
-        public static final int imageView1=0x7f050007;
-        public static final int imageView2=0x7f05000c;
-        public static final int loadText=0x7f050005;
-        public static final int map=0x7f050010;
+        public static final int imageView1=0x7f050005;
+        public static final int imageView10=0x7f05000e;
+        public static final int imageView11=0x7f05000f;
+        public static final int imageView12=0x7f050010;
+        public static final int imageView1m=0x7f050034;
+        public static final int imageView1p=0x7f050047;
+        public static final int imageView2=0x7f050006;
+        public static final int imageView2m=0x7f050036;
+        public static final int imageView2p=0x7f050049;
+        public static final int imageView3=0x7f050007;
+        public static final int imageView4=0x7f050008;
+        public static final int imageView5=0x7f050009;
+        public static final int imageView6=0x7f05000a;
+        public static final int imageView7=0x7f05000b;
+        public static final int imageView8=0x7f05000c;
+        public static final int imageView9=0x7f05000d;
+        public static final int ivItem=0x7f050044;
+        public static final int ivItemh=0x7f050042;
+        public static final int listView=0x7f05004a;
+        public static final int listViewh=0x7f05004b;
+        public static final int loadText=0x7f050041;
+        public static final int map=0x7f050046;
+        public static final int mapm=0x7f050035;
+        public static final int mapp=0x7f050048;
+        public static final int menu_marcadores=0x7f05005e;
         public static final int none=0x7f050000;
         public static final int normal=0x7f050001;
-        public static final int progressBar1=0x7f050006;
-        public static final int relative=0x7f05000e;
+        public static final int progressBar1=0x7f050051;
+        public static final int relative=0x7f050020;
         public static final int satellite=0x7f050002;
+        public static final int spinner1=0x7f050033;
+        public static final int tableLayout1=0x7f05001d;
+        public static final int tableRow1=0x7f05001e;
+        public static final int tableRow2=0x7f05001f;
         public static final int terrain=0x7f050003;
-        public static final int textView1=0x7f05000a;
-        public static final int textView2=0x7f05000d;
-        public static final int textView3=0x7f050013;
-        public static final int textView4=0x7f050012;
-        public static final int textView5=0x7f050011;
+        public static final int textView1=0x7f05002c;
+        public static final int textView2=0x7f05002a;
+        public static final int textView3=0x7f05002f;
+        public static final int textView4=0x7f050031;
+        public static final int textView5=0x7f050032;
+        public static final int tvTitle=0x7f050045;
+        public static final int tvTitleh=0x7f050043;
+        public static final int txtM_2m=0x7f05002b;
+        public static final int txtM_3m=0x7f05002e;
+        public static final int txtM_4m=0x7f05002d;
+        public static final int txtM_nomm=0x7f050029;
+    }
+    public static final class integer {
+        public static final int google_play_services_version=0x7f070000;
     }
     public static final class layout {
         public static final int activity_carga=0x7f030000;
-        public static final int activity_hotel=0x7f030001;
-        public static final int activity_main=0x7f030002;
-        public static final int mapa=0x7f030003;
-        public static final int restaurante_platos=0x7f030004;
-        public static final int restaurantes=0x7f030005;
+        public static final int activity_hotel_bolivar_descrip=0x7f030001;
+        public static final int activity_hotel_morasurco=0x7f030002;
+        public static final int activity_hotel_morasurco_home=0x7f030003;
+        public static final int activity_ima_hotel_bolivar=0x7f030004;
+        public static final int activity_main=0x7f030005;
+        public static final int activity_morasurco__reservas=0x7f030006;
+        public static final int activity_morasurco_ubicacion=0x7f030007;
+        public static final int activity_opciones_usuarios=0x7f030008;
+        public static final int activity_restaurante_picanteria=0x7f030009;
+        public static final int activity_servicios_bolivar=0x7f03000a;
+        public static final int activity_servicios_morasurco=0x7f03000b;
+        public static final int dialog_personal=0x7f03000c;
+        public static final int hotel_bolivar=0x7f03000d;
+        public static final int hotel_morasurco=0x7f03000e;
+        public static final int lis_item_hotel=0x7f03000f;
+        public static final int lis_item_opcionesl=0x7f030010;
+        public static final int list_item=0x7f030011;
+        public static final int localizar=0x7f030012;
+        public static final int localizar_picanteria=0x7f030013;
+        public static final int main=0x7f030014;
+        public static final int main_hotel=0x7f030015;
+        public static final int main_opciones=0x7f030016;
+        public static final int picanteria__reservas=0x7f030017;
+        public static final int presentacion=0x7f030018;
+        public static final int restaurante_platos=0x7f030019;
+        public static final int restaurantes=0x7f03001a;
     }
     public static final class menu {
-        public static final int mapa=0x7f090000;
-        public static final int menu=0x7f090001;
-        public static final int restaurantes=0x7f090002;
+        public static final int hotel_morasurco=0x7f0b0000;
+        public static final int hotel_morasurco_home=0x7f0b0001;
+        public static final int menu=0x7f0b0002;
+        public static final int menu_mapa=0x7f0b0003;
+        public static final int morasurco__reservas=0x7f0b0004;
+        public static final int morasurco_ubicacion=0x7f0b0005;
+        public static final int restaurante_picanteria=0x7f0b0006;
+        public static final int restaurantes=0x7f0b0007;
+        public static final int servicios_morasurco=0x7f0b0008;
     }
     public static final class string {
-        public static final int Destinos=0x7f060025;
-        public static final int Hoteles=0x7f060021;
-        public static final int Platos=0x7f060031;
-        public static final int Que=0x7f06001f;
-        public static final int Restaurantes=0x7f060022;
-        public static final int Rutas=0x7f060020;
-        public static final int Tours=0x7f060023;
-        public static final int Transportes=0x7f060024;
-        public static final int Ubicacion=0x7f060032;
-        public static final int Yo=0x7f06001e;
-        public static final int action_settings=0x7f060027;
-        public static final int app_name=0x7f060019;
+        public static final int Destinos=0x7f060027;
+        public static final int Hoteles=0x7f060023;
+        public static final int Platos=0x7f060033;
+        public static final int Que=0x7f060020;
+        public static final int Restaurantes=0x7f060024;
+        public static final int Rutas=0x7f060022;
+        public static final int Servicios=0x7f060021;
+        public static final int ServiciosHC=0x7f06003e;
+        public static final int Tours=0x7f060025;
+        public static final int Transportes=0x7f060026;
+        public static final int Ubicacion=0x7f060034;
+        public static final int UbicacionHC=0x7f06003d;
+        public static final int Yo=0x7f06001f;
+        public static final int action_settings=0x7f060029;
+        public static final int app_name=0x7f06001a;
         /**   Title for notification shown when GooglePlayServices needs to be
         enabled for a application to work. [CHAR LIMIT=70] 
          */
-        public static final int auth_client_needs_enabling_title=0x7f060014;
+        public static final int auth_client_needs_enabling_title=0x7f060015;
         /**   Title for notification shown when GooglePlayServices needs to be
         installed for a application to work. [CHAR LIMIT=70] 
          */
-        public static final int auth_client_needs_installation_title=0x7f060015;
+        public static final int auth_client_needs_installation_title=0x7f060016;
         /**   Title for notification shown when GooglePlayServices needs to be
         udpated for a application to work. [CHAR LIMIT=70] 
          */
-        public static final int auth_client_needs_update_title=0x7f060016;
+        public static final int auth_client_needs_update_title=0x7f060017;
         /**   Title for notification shown when GooglePlayServices is unavailable [CHAR LIMIT=42] 
          */
-        public static final int auth_client_play_services_err_notification_msg=0x7f060017;
+        public static final int auth_client_play_services_err_notification_msg=0x7f060018;
         /**   Requested by string saying which app requested the notification. [CHAR LIMIT=42] 
          */
-        public static final int auth_client_requested_by_msg=0x7f060018;
+        public static final int auth_client_requested_by_msg=0x7f060019;
         /**   Title for notification shown when a bad version of GooglePlayServices
         has been installed and needs correction for an application to work.
         [CHAR LIMIT=70] 
          */
-        public static final int auth_client_using_bad_version_title=0x7f060013;
+        public static final int auth_client_using_bad_version_title=0x7f060014;
         /**  Button in confirmation dialog to enable Google Play services.  Clicking it
         will direct user to application settings of Google Play services where they
         can enable it [CHAR LIMIT=40] 
@@ -336,6 +542,10 @@ containing a value of this type.
         services [CHAR LIMIT=NONE] 
          */
         public static final int common_google_play_services_unknown_issue=0x7f06000d;
+        /**  Message in confirmation dialog informing user that date on the device is not correct,
+    causing certificate checks to fail. [CHAR LIMIT=NONE] 
+         */
+        public static final int common_google_play_services_unsupported_date_text=0x7f060010;
         /**  Message in confirmation dialog informing user that Google Play services is not supported on their device [CHAR LIMIT=NONE] 
          */
         public static final int common_google_play_services_unsupported_text=0x7f06000f;
@@ -344,7 +554,7 @@ containing a value of this type.
         public static final int common_google_play_services_unsupported_title=0x7f06000e;
         /**  Button in confirmation dialog for updating Google Play services [CHAR LIMIT=40] 
          */
-        public static final int common_google_play_services_update_button=0x7f060010;
+        public static final int common_google_play_services_update_button=0x7f060011;
         /**  Message in confirmation dialog informing user that they need to update
         Google Play services (from Play Store) [CHAR LIMIT=NONE] 
          */
@@ -355,32 +565,144 @@ containing a value of this type.
         public static final int common_google_play_services_update_title=0x7f060007;
         /**  Sign-in button text [CHAR LIMIT=15] 
          */
-        public static final int common_signin_button_text=0x7f060011;
+        public static final int common_signin_button_text=0x7f060012;
         /**  Long form sign-in button text [CHAR LIMIT=30] 
          */
-        public static final int common_signin_button_text_long=0x7f060012;
-        public static final int hello_world=0x7f060028;
-        public static final int lugares=0x7f06002e;
-        public static final int menu_settings=0x7f06001a;
-        public static final int pasto=0x7f06002f;
-        public static final int saludo=0x7f06001d;
-        public static final int textView02=0x7f06002d;
-        public static final int textView1=0x7f06002c;
-        public static final int textView2=0x7f060029;
-        public static final int title_activity_carga=0x7f06001b;
-        public static final int title_activity_hotel=0x7f060026;
-        public static final int title_activity_main=0x7f06001c;
-        public static final int title_activity_mapa=0x7f060035;
-        public static final int title_activity_mmapa=0x7f060034;
-        public static final int title_activity_notificaciones=0x7f060033;
-        public static final int title_activity_restarantes=0x7f06002b;
-        public static final int title_activity_restaurante_platos=0x7f060030;
-        public static final int title_activity_restaurantes=0x7f06002a;
+        public static final int common_signin_button_text_long=0x7f060013;
+        public static final int dummy_button=0x7f060045;
+        public static final int dummy_content=0x7f060046;
+        public static final int hello_world=0x7f06002a;
+        public static final int lugares=0x7f060030;
+        public static final int menu_settings=0x7f06001b;
+        public static final int pasto=0x7f060031;
+        public static final int saludo=0x7f06001e;
+        public static final int textView02=0x7f06002f;
+        public static final int textView1=0x7f06002e;
+        public static final int textView2=0x7f06002b;
+        public static final int title_Turismobile=0x7f06001c;
+        public static final int title_activity_hotel=0x7f060028;
+        public static final int title_activity_hotel_bolivar_descrip=0x7f060047;
+        public static final int title_activity_hotel_cuellar=0x7f06003c;
+        public static final int title_activity_hotel_galerias=0x7f060041;
+        public static final int title_activity_hotel_loft=0x7f06003f;
+        public static final int title_activity_hotel_mansion=0x7f060043;
+        public static final int title_activity_hotel_morasurco=0x7f060040;
+        public static final int title_activity_hotel_morasurco_home=0x7f06004b;
+        public static final int title_activity_hotel_sindamanoy=0x7f060042;
+        public static final int title_activity_lista_item=0x7f06003a;
+        public static final int title_activity_lista_restaurantes=0x7f060038;
+        public static final int title_activity_main=0x7f06001d;
+        public static final int title_activity_main_activity_hotel=0x7f060039;
+        public static final int title_activity_mapa=0x7f060037;
+        public static final int title_activity_mmapa=0x7f060036;
+        public static final int title_activity_morasurco__reservas=0x7f06004c;
+        public static final int title_activity_morasurco_ubicacion=0x7f06004d;
+        public static final int title_activity_notificaciones=0x7f060035;
+        public static final int title_activity_opciones_usuarios=0x7f060048;
+        public static final int title_activity_restarantes=0x7f06002d;
+        public static final int title_activity_restaurante_picanteria=0x7f06004e;
+        public static final int title_activity_restaurante_platos=0x7f060032;
+        public static final int title_activity_restaurantes=0x7f06002c;
+        public static final int title_activity_servicios_bolivar=0x7f060049;
+        public static final int title_activity_servicios_morasurco=0x7f06004a;
+        public static final int title_activity_ubicacion=0x7f060044;
+        public static final int tvTitle=0x7f06003b;
     }
     public static final class style {
-        public static final int AppTheme=0x7f080000;
+        public static final int AppTheme=0x7f0a0000;
+        public static final int ButtonBar=0x7f0a0002;
+        public static final int ButtonBarButton=0x7f0a0003;
+        public static final int FullscreenActionBarStyle=0x7f0a0004;
+        public static final int FullscreenTheme=0x7f0a0001;
     }
     public static final class styleable {
+        /** Attributes that can be used with a AdsAttrs.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #AdsAttrs_adSize com.turismobile.narino:adSize}</code></td><td>
+    The size of the ad.</td></tr>
+           <tr><td><code>{@link #AdsAttrs_adUnitId com.turismobile.narino:adUnitId}</code></td><td> The ad unit ID.</td></tr>
+           </table>
+           @see #AdsAttrs_adSize
+           @see #AdsAttrs_adUnitId
+         */
+        public static final int[] AdsAttrs = {
+            0x7f010000, 0x7f010001
+        };
+        /**
+          <p>
+          @attr description
+          
+    The size of the ad. It must be one of BANNER, FULL_BANNER, LEADERBOARD,
+    MEDIUM_RECTANGLE, SMART_BANNER, WIDE_SKYSCRAPER, or
+    &lt;width&gt;x&lt;height&gt;.
+    
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.turismobile.narino:adSize
+        */
+        public static final int AdsAttrs_adSize = 0;
+        /**
+          <p>
+          @attr description
+           The ad unit ID. 
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.turismobile.narino:adUnitId
+        */
+        public static final int AdsAttrs_adUnitId = 1;
+        /** Attributes that can be used with a ButtonBarContainerTheme.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ButtonBarContainerTheme_buttonBarButtonStyle com.turismobile.narino:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarContainerTheme_buttonBarStyle com.turismobile.narino:buttonBarStyle}</code></td><td></td></tr>
+           </table>
+           @see #ButtonBarContainerTheme_buttonBarButtonStyle
+           @see #ButtonBarContainerTheme_buttonBarStyle
+         */
+        public static final int[] ButtonBarContainerTheme = {
+            0x7f010010, 0x7f010011
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.turismobile.narino.R.attr#buttonBarButtonStyle}
+          attribute's value can be found in the {@link #ButtonBarContainerTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.turismobile.narino:buttonBarButtonStyle
+        */
+        public static final int ButtonBarContainerTheme_buttonBarButtonStyle = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.turismobile.narino.R.attr#buttonBarStyle}
+          attribute's value can be found in the {@link #ButtonBarContainerTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.turismobile.narino:buttonBarStyle
+        */
+        public static final int ButtonBarContainerTheme_buttonBarStyle = 0;
         /** Attributes that can be used with a HelloGallery.
            <p>Includes the following attributes:</p>
            <table>
@@ -437,10 +759,10 @@ containing a value of this type.
            @see #MapAttrs_zOrderOnTop
          */
         public static final int[] MapAttrs = {
-            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
-            0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007,
-            0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b,
-            0x7f01000c, 0x7f01000d
+            0x7f010002, 0x7f010003, 0x7f010004, 0x7f010005,
+            0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009,
+            0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d,
+            0x7f01000e, 0x7f01000f
         };
         /**
           <p>This symbol is the offset where the {@link com.turismobile.narino.R.attr#cameraBearing}
